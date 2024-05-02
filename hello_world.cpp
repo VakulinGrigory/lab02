@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-cout << "Hello, World!" << endl;
+string username;
+cout << "Введите имя: "; cin >> username;
+cout << "Hello world from " << username << "!" << endl;
 return 0;
 }
